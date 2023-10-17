@@ -1,11 +1,16 @@
 import Footer from "@/components/Footer";
 import "./globals.css";
 import Header from "@/components/Header";
-export async function generateMetadata() {
-  // SEO DATA FETCH
-  return {
-    title: "Home",
-  };
+import { getHomeMeta } from "@/libs/getHomeMeta";
+
+const metaHome = getHomeMeta();
+
+export async function generateMetadata(){
+  return{
+    title : "Home",
+    keywords: "", 
+    description : "asdfasfdasdf"
+  }
 }
 
 export default function RootLayout({ children }) {
