@@ -23,7 +23,7 @@ const TeamList = async () => {
             <div className="flex flex-wrap">
               {
                 members.map((person, index)=>(
-                  <div className="mb-6 w-full md:w-1/2 lg:w-1/4 px-3" key={index}>
+                  <div className="mb-6 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-3" key={index}>
                     <div className="pb-8 bg-white rounded shadow text-center overflow-hidden">
                       <Image width={300} height={200} layout="responsive" className="mb-8 w-full h-64 object-cover"
                         src={person.image}

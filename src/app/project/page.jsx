@@ -6,7 +6,6 @@ const Page = () => {
   return (
     <>
       <Camp title={"Project"} />
-
       <Project />
       <Subscribe />
     </>

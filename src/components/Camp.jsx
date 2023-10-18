@@ -3,7 +3,7 @@ import React from "react";
 export const Camp = ({ title }) => {
   return (
     <>
-      <section className="-mt-24 pt-40 pb-12 bg-green-50">
+      <section className="-mt-24 px-4 pt-40 pb-12 bg-green-50">
         <div className="container mx-auto">
           <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">
             {title}

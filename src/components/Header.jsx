@@ -1,10 +1,12 @@
-import Link from "next/link";
+'use client';
+import Link from "next/link";import 
+{ Button, Navbar } from 'flowbite-react';
 
 function Header() {
   return (
     <section className="relative bg-white ">
       <div className="container mx-auto">
-        <nav className="relative px-6 py-6 flex justify-between items-center z-10">
+        <nav className="desktop-menu relative py-6 flex justify-between items-center z-10">
           <Link className="text-3xl font-bold leading-none" href="/">
             <img
               className="h-12"
@@ -117,12 +119,32 @@ function Header() {
             </li>
           </ul>
           <a
-            className="hidden lg:inline-block py-4 px-6 bg-green-100 hover:bg-green-500 text-sm text-green-600 hover:text-white font-bold rounded-l-xl rounded-t-xl transition duration-200"
+            className="hidden lg:inline-block py-4 px-6 hover:bg-green-400 bg-green-500 text-sm hover:text-green-200 text-white font-bold rounded-l-xl rounded-t-xl transition duration-200"
             href="#"
           >
             Contact Us
           </a>
         </nav>
+
+
+        <div class="p-2 mobile-menu">
+          <Navbar fluid rounded>
+            <Navbar.Brand href="/">
+              <img src="atis-assets/logo/atis/atis-mono-black.svg" className="mr-3 h-6 sm:h-9" alt="Logo" />
+            </Navbar.Brand>
+            <div className="flex md:order-2">
+              <Button style={{display: "none"}}>Get started</Button>
+              <Navbar.Toggle />
+            </div>
+            <Navbar.Collapse>
+              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/">Home</Link></Navbar.Link>
+              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/team">Team</Link></Navbar.Link>
+              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/service">Services</Link></Navbar.Link>
+              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/project">Projects</Link></Navbar.Link>
+              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/testimonial">Testimonials</Link></Navbar.Link>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
       </div>
     </section>
   );

@@ -343,6 +343,28 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
+/***/ 3097:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+/* __next_internal_client_entry_do_not_use__  cjs */ 
+const { createProxy } = __webpack_require__(1363);
+module.exports = createProxy("D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\node_modules\\next\\dist\\client\\link.js");
+ //# sourceMappingURL=link.js.map
+
+
+/***/ }),
+
+/***/ 5124:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+module.exports = __webpack_require__(3097);
+
+
+/***/ }),
+
 /***/ 9882:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1025,7 +1047,7 @@ const Page = ()=>{
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,563,662,484,595], () => (__webpack_exec__(1075)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,939,662,270,595,140], () => (__webpack_exec__(1075)));
 module.exports = __webpack_exports__;
 
 })();

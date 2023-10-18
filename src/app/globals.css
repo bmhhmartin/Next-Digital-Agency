@@ -16,3 +16,29 @@
     font-family: "Croissant One", cursive;
   }
 }
+
+
+span.sr-only {
+  display: none;
+}
+
+.mobile-menu{
+  display: none;
+}
+
+
+@media(min-width: 1024px){
+  .mobile-menu .md\:hidden {
+    display: block;
+  }
+}
+  
+@media(max-width: 1024px){
+  .desktop-menu{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  
+}

@@ -1051,7 +1051,7 @@ function normalizeCookie(cookie = {
 
 /***/ }),
 
-/***/ 1149:
+/***/ 9798:
 /***/ ((module) => {
 
 
@@ -8109,7 +8109,7 @@ _export(exports, {
         return _default;
     }
 });
-const _routemodule = __webpack_require__(6649);
+const _routemodule = __webpack_require__(4877);
 const _requestasyncstoragewrapper = __webpack_require__(5208);
 const _staticgenerationasyncstoragewrapper = __webpack_require__(3204);
 const _responsehandlers = __webpack_require__(1332);
@@ -8468,7 +8468,7 @@ function handleInternalServerErrorResponse() {
 
 /***/ }),
 
-/***/ 6649:
+/***/ 4877:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -9114,9 +9114,9 @@ let api;
 // the API is ~stable, so this should be fine
 if (false) {} else {
     try {
-        api = __webpack_require__(1149);
+        api = __webpack_require__(9798);
     } catch (err) {
-        api = __webpack_require__(1149);
+        api = __webpack_require__(9798);
     }
 }
 const { context, trace, SpanStatusCode, SpanKind } = api;
@@ -10277,7 +10277,7 @@ _export(exports, {
     }
 });
 const _nexturl = __webpack_require__(2419);
-const _utils = __webpack_require__(9537);
+const _utils = __webpack_require__(415);
 const _error = __webpack_require__(5737);
 const _cookies = __webpack_require__(3425);
 const INTERNALS = Symbol("internal request");
@@ -10371,7 +10371,7 @@ Object.defineProperty(exports, "x", ({
     }
 }));
 const _nexturl = __webpack_require__(2419);
-const _utils = __webpack_require__(9537);
+const _utils = __webpack_require__(415);
 const _cookies = __webpack_require__(3425);
 const INTERNALS = Symbol("internal response");
 const REDIRECTS = new Set([
@@ -10513,7 +10513,7 @@ function userAgent({ headers }) {
 
 /***/ }),
 
-/***/ 9537:
+/***/ 415:
 /***/ ((__unused_webpack_module, exports) => {
 
 

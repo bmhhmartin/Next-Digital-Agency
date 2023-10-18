@@ -286,7 +286,7 @@ const tree = {
         }]
       },
         {
-        
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6856)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\testimonial\\layout.jsx"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -348,6 +348,35 @@ const routeModule = new AppPageRouteModule({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23))
+
+/***/ }),
+
+/***/ 6856:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   generateMetadata: () => (/* binding */ generateMetadata)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+async function generateMetadata() {
+    return {
+        title: "Testimonial",
+        keywords: "",
+        description: ""
+    };
+}
+const Layout = ({ children })=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        children: children
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
 
 /***/ }),
 
@@ -464,7 +493,7 @@ const Page = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Camp/* Camp */.Y, {
-                title: "Testimonial "
+                title: "Testimonial"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(components_Testimonial, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Subscribe/* default */.Z, {})
@@ -483,7 +512,7 @@ const Page = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,563,662,484,595,431], () => (__webpack_exec__(4230)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,939,662,270,595,311], () => (__webpack_exec__(4230)));
 module.exports = __webpack_exports__;
 
 })();

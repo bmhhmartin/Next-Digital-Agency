@@ -281,12 +281,12 @@ const tree = {
         'team',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3192)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\team\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7960)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\team\\page.jsx"],
           
         }]
       },
         {
-        
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7865)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\team\\layout.jsx"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -351,7 +351,36 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 3192:
+/***/ 7865:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   generateMetadata: () => (/* binding */ generateMetadata)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+async function generateMetadata() {
+    return {
+        title: "Team",
+        keywords: "",
+        description: ""
+    };
+}
+const Layout = ({ children })=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        children: children
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
+
+/***/ }),
+
+/***/ 7960:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -411,7 +440,7 @@ const TeamList = async ()=>{
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "flex flex-wrap",
                             children: members.map((person, index)=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "mb-6 w-full md:w-1/2 lg:w-1/4 px-3",
+                                    className: "mb-6 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-3",
                                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: "pb-8 bg-white rounded shadow text-center overflow-hidden",
                                         children: [
@@ -471,7 +500,7 @@ const Page = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,563,662,484,595,431], () => (__webpack_exec__(6005)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,939,662,270,595,311], () => (__webpack_exec__(6005)));
 module.exports = __webpack_exports__;
 
 })();

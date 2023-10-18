@@ -5,8 +5,7 @@ import Subscribe from "@/components/Subscribe";
 const Page = () => {
   return (
     <>
-      <Camp title={"Testimonial "} />
-
+      <Camp title={"Testimonial"} />
       <Testimonial />
       <Subscribe />
     </>

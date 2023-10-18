@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <section>
-        <div className="py-20 bg-gray-200 radius-for-skewed">
+        <div className="py-20 bg-gray-300 radius-for-skewed">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
