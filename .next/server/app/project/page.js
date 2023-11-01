@@ -244,7 +244,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 6310:
+/***/ 5557:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -281,12 +281,12 @@ const tree = {
         'project',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5604)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\project\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5604)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\project\\page.jsx"],
           
         }]
       },
         {
-        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2831)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\project\\layout.jsx"],
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2831)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\project\\layout.jsx"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -298,10 +298,10 @@ const tree = {
       ]
       },
         {
-        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6655)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\layout.jsx"],
-'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6015)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\error.jsx"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3322)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\loading.jsx"],
-'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\not-found.jsx"],
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6655)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\layout.jsx"],
+'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6015)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\error.jsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3322)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\loading.jsx"],
+'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\not-found.jsx"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -312,7 +312,7 @@ const tree = {
       }
       ]
       }.children;
-const pages = ["D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\project\\page.jsx"];
+const pages = ["D:\\Projects\\Nextjs\\Agency\\src\\app\\project\\page.jsx"];
 
 // @ts-expect-error - replaced by webpack/turbopack loader
 
@@ -344,7 +344,7 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 6342:
+/***/ 2412:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -358,7 +358,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1363);
-module.exports = createProxy("D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\node_modules\\next\\dist\\client\\link.js");
+module.exports = createProxy("D:\\Projects\\Nextjs\\Agency\\node_modules\\next\\dist\\client\\link.js");
  //# sourceMappingURL=link.js.map
 
 
@@ -579,7 +579,7 @@ const Page = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,939,662,270,595,311], () => (__webpack_exec__(6310)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,939,662,861,595,431], () => (__webpack_exec__(5557)));
 module.exports = __webpack_exports__;
 
 })();

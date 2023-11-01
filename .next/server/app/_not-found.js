@@ -180,7 +180,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 1969:
+/***/ 8476:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -215,15 +215,15 @@ const tree = {
           children: ['__PAGE__', {}, {
             page: [
               () => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)),
-              "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\not-found.jsx"
+              "D:\\Projects\\Nextjs\\Agency\\src\\app\\not-found.jsx"
             ]
           }]
         },
         {
-        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6655)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\layout.jsx"],
-'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6015)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\error.jsx"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3322)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\loading.jsx"],
-'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\not-found.jsx"],
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6655)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\layout.jsx"],
+'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6015)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\error.jsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3322)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\loading.jsx"],
+'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\not-found.jsx"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -273,7 +273,7 @@ const routeModule = new AppPageRouteModule({
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,939,270,140], () => (__webpack_exec__(1969)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,939,861], () => (__webpack_exec__(8476)));
 module.exports = __webpack_exports__;
 
 })();

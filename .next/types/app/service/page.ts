@@ -1,4 +1,4 @@
-// File: D:\Engineering\Tutorial\Ostad Platform\Next JS\Projects\Digital-Agency\src\app\service\page.jsx
+// File: D:\Projects\Nextjs\Agency\src\app\service\page.jsx
 import * as entry from '../../../../src/app/service/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

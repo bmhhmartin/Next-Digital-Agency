@@ -137,11 +137,11 @@ function Header() {
               <Navbar.Toggle />
             </div>
             <Navbar.Collapse>
-              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/">Home</Link></Navbar.Link>
-              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/team">Team</Link></Navbar.Link>
-              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/service">Services</Link></Navbar.Link>
-              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/project">Projects</Link></Navbar.Link>
-              <Navbar.Link class="bg-green-500 p-2 w-100 block text-center text-white"><Link href="/testimonial">Testimonials</Link></Navbar.Link>
+              <Link class="bg-green-500 p-2 w-100 block text-center text-white hover:bg-green-800" href="/">Home</Link>
+              <Link class="bg-green-500 p-2 w-100 block text-center text-white hover:bg-green-800" href="/team">Team</Link>
+              <Link class="bg-green-500 p-2 w-100 block text-center text-white hover:bg-green-800" href="/service">Services</Link>
+              <Link class="bg-green-500 p-2 w-100 block text-center text-white hover:bg-green-800" href="/project">Projects</Link>
+              <Link class="bg-green-500 p-2 w-100 block text-center text-white hover:bg-green-800" href="/testimonial">Testimonials</Link>
             </Navbar.Collapse>
           </Navbar>
         </div>

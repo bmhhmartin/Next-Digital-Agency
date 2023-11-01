@@ -244,7 +244,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 1075:
+/***/ 931:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -278,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9882)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9882)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -289,10 +289,10 @@ const tree = {
         }]
       },
         {
-        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6655)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\layout.jsx"],
-'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6015)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\error.jsx"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3322)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\loading.jsx"],
-'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)), "D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\not-found.jsx"],
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6655)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\layout.jsx"],
+'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6015)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\error.jsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3322)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\loading.jsx"],
+'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)), "D:\\Projects\\Nextjs\\Agency\\src\\app\\not-found.jsx"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -303,7 +303,7 @@ const tree = {
       }
       ]
       }.children;
-const pages = ["D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\src\\app\\page.jsx"];
+const pages = ["D:\\Projects\\Nextjs\\Agency\\src\\app\\page.jsx"];
 
 // @ts-expect-error - replaced by webpack/turbopack loader
 
@@ -335,7 +335,7 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 6342:
+/***/ 2412:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -349,7 +349,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1363);
-module.exports = createProxy("D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\node_modules\\next\\dist\\client\\link.js");
+module.exports = createProxy("D:\\Projects\\Nextjs\\Agency\\node_modules\\next\\dist\\client\\link.js");
  //# sourceMappingURL=link.js.map
 
 
@@ -1047,7 +1047,7 @@ const Page = ()=>{
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,939,662,270,595,140], () => (__webpack_exec__(1075)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,939,662,861,595], () => (__webpack_exec__(931)));
 module.exports = __webpack_exports__;
 
 })();

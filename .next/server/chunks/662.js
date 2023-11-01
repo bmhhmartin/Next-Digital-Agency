@@ -304,7 +304,7 @@ const _default = defaultLoader; //# sourceMappingURL=image-loader.js.map
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1363);
-module.exports = createProxy("D:\\Engineering\\Tutorial\\Ostad Platform\\Next JS\\Projects\\Digital-Agency\\node_modules\\next\\dist\\client\\image-component.js");
+module.exports = createProxy("D:\\Projects\\Nextjs\\Agency\\node_modules\\next\\dist\\client\\image-component.js");
  //# sourceMappingURL=image-component.js.map
 
 
